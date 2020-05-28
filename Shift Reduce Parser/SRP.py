@@ -1,11 +1,15 @@
+
+# This function is irrelavant and did not use 
 def pop (stack_string , num):
 	return stack_string[:-num]
 
+# Shifts from inpot to stack
 def shift (stack_string , Our_string):
 	stack_string += Our_string[0]
 	Our_string = Our_string[1:]
 	return stack_string , Our_string
 
+#Checks the top of the stack for a handle
 def is_handle(stack_string,grammar):
 	for i in grammar:
 			if len(stack_string) >= len(i) and i == stack_string[-len(i):]:
