@@ -13,8 +13,12 @@ def is_handle(stack_string,grammar):
 				print("S ->" , i)
 	return stack_string
 
+# Given Grammar
+# S -> 0S0 | 1S1 | 2
 
 grammar = ["0S0","1S1", "2"]
+
+# Concidered String = 0102010 (Belongs to the given grammar)
 
 stack_string = "$"
 Our_string = "0102010$"
