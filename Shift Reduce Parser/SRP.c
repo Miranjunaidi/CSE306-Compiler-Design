@@ -1,4 +1,4 @@
-
+// Youtube link for code explination by ma'am : https://www.youtube.com/watch?v=zkBz4waDzbE&feature=youtu.be
 #include<stdio.h>
 #include<stdlib.h>
 void pop(),push(char),display();
